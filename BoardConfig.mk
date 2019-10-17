@@ -1,5 +1,5 @@
 # Device path
-LOCAL_PATH := device/realme/spartan
+LOCAL_PATH := device/Onn/ONA19TB002
 
 # Architecture
 TARGET_ARCH := arm64
@@ -60,8 +60,8 @@ TARGET_COPY_OUT_VENDOR := vendor
 # TWRP
 BOARD_SUPPRESS_SECURE_ERASE := true
 BOARD_USE_FRAMEBUFFER_ALPHA_CHANNEL := true
-DEVICE_SCREEN_WIDTH := 720
-DEVICE_SCREEN_HEIGHT := 1520
+DEVICE_SCREEN_WIDTH := 800
+DEVICE_SCREEN_HEIGHT := 1280
 RECOVERY_SDCARD_ON_DATA := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TARGET_RECOVERY_LCD_BACKLIGHT_PATH := \"/sys/class/leds/lcd-backlight/brightness\"
@@ -87,7 +87,7 @@ TW_NO_BATT_PERCENT := false
 # Crypto
 TW_INCLUDE_CRYPTO := true
 TW_CRYPTO_FS_TYPE := "ext4"
-TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/bootdevice/by-name/metadata"
+TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/bootdevice/by-name/userdata"
 TW_CRYPTO_MNT_POINT := "/data"
 TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered"
 
