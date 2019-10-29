@@ -4,7 +4,7 @@
 /system         ext4    /dev/block/mmcblk0p25                flags=display="SYSTEM";backup=1;wipeingui;flashimg=1
 /vendor         ext4    /dev/block/mmcblk0p16                flags=display="VENDOR";backup=1;wipeingui;flashimg=1 
 /dtbo           emmc    /dev/block/mmcblk0p15                flags=display="DTBO";backup=1;flashimg=1
-/data           ext4    /dev/block/mmcblk0p27  /dev/block/mmcblk0p23   flags=display="DATA";backup=0;wipeingui;wipeduringfactoryreset;storage
+/data           ext4    /dev/block/mmcblk0p27  symlink=/dev/block/mmcblk0p23   flags=display="DATA";backup=0;wipeingui;wipeduringfactoryreset;storage
 /metadata       emmc    /dev/block/mmcblk0p23                flags=backup=1;mounttodecrypt
 /cache          ext4    /dev/block/mmcblk0p26                flags=display="CACHE";backup=1;wipeingui;wipeduringfactoryreset
 /vbmeta         emmc    /dev/block/mmcblk0p24                flags=display="VBMETA";backup=1;wipeingui;flashimg=1
