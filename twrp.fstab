@@ -15,16 +15,15 @@
 /external_sd     vfat       /dev/block/mmcblk1p1    /dev/block/mmcblk1   flags=display="Micro SDcard";storage;wipeingui;removable
 /usb-otg         vfat       /dev/block/sda1         /dev/block/sda       flags=display="USB-OTG";storage;wipeingui;removable
 
-
-#/proinfo        emmc    /dev/block/mmcblk0p1  flags=display="PROINFO";backup=0
-#/bootloader     emmc    /dev/block/mmcblk0p8   flags=display="LK";backup=1
-#/bootloader2    emmc    /dev/block/mmcblk0p9   flags=display="LK2";backup=1
-#/misc           emmc    /dev/block/mmcblk0p13  flags=display="MISC";backup=0
-#/logo           emmc    /dev/block/mmcblk0p14  flags=display="LOGO";backup=0
-#/expdb          emmc    /dev/block/mmcblk0p17  flags=display="EXPDB";backup=0
-#/secro          emmc    /dev/block/mmcblk0p12  flags=display="SECRO";backup=0
-#/seccfg         emmc    /dev/block/mmcblk0p7  flags=display="SECCFG";backup=0
-#/tee1           emmc    /dev/block/mmcblk0p19  flags=display="TEE1";backup=0
-#/tee2           emmc    /dev/block/mmcblk0p20  flags=display="TEE2";backup=0
-#/kb             emmc    /dev/block/mmcblk0p21  flags=display="KB";backup=0
-#/dkb            emmc    /dev/block/mmcblk0p22  flags=display="DKB";backup=
+/proinfo        emmc    /dev/block/mmcblk0p1  flags=display="PROINFO";backup=0
+/bootloader     emmc    /dev/block/mmcblk0p8   flags=display="LK";backup=1
+/bootloader2    emmc    /dev/block/mmcblk0p9   flags=display="LK2";backup=1
+/misc           emmc    /dev/block/mmcblk0p13  flags=display="MISC";backup=0
+/logo           emmc    /dev/block/mmcblk0p14  flags=display="LOGO";backup=0
+/expdb          emmc    /dev/block/mmcblk0p17  flags=display="EXPDB";backup=0
+/secro          emmc    /dev/block/mmcblk0p12  flags=display="SECRO";backup=0
+/seccfg         emmc    /dev/block/mmcblk0p7  flags=display="SECCFG";backup=0
+/tee1           emmc    /dev/block/mmcblk0p19  flags=display="TEE1";backup=0
+/tee2           emmc    /dev/block/mmcblk0p20  flags=display="TEE2";backup=0
+/kb             emmc    /dev/block/mmcblk0p21  flags=display="KB";backup=0
+/dkb            emmc    /dev/block/mmcblk0p22  flags=display="DKB";backup=
